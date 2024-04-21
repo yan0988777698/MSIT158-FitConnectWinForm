@@ -101,9 +101,6 @@
     <Compile Include="FrmMember_GoPay.Designer.cs">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
     </Compile>
-    <Compile Include="region_info.cs">
-      <DependentUpon>DB.tt</DependentUpon>
-    </Compile>
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
@@ -140,7 +137,13 @@
     <Compile Include="tcoach_photo.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
+    <Compile Include="tcompany.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="tfield.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tfield_photo.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
     <Compile Include="tfield_reserve.cs">
@@ -165,6 +168,9 @@
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
     <Compile Include="tmember_status_details.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="towner.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
     <Compile Include="tregion_table.cs">

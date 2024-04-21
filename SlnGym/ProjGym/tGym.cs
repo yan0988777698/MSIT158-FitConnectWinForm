@@ -21,14 +21,19 @@ namespace ProjGym
         }
     
         public int Gym_id { get; set; }
+        public int company_id { get; set; }
         public int region_id { get; set; }
+        public string name { get; set; }
         public string address { get; set; }
         public string e_mail { get; set; }
         public string phone { get; set; }
         public string website { get; set; }
+        public string time { get; set; }
         public string photo { get; set; }
         public bool status { get; set; }
+        public string describe { get; set; }
     
+        public virtual tcompany tcompany { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tfield> tfield { get; set; }
         public virtual tregion_table tregion_table { get; set; }

@@ -48,6 +48,7 @@ namespace ProjGym
             {
                 this.flowLayoutPanel_History.BackgroundImage = new Bitmap(Application.StartupPath + "\\cry.png");
                 this.flowLayoutPanel_History.BackgroundImageLayout = ImageLayout.Stretch;
+                lbl_History.Text = $"歷史課程清單(0)";
                 return;
             }
 
@@ -78,7 +79,12 @@ namespace ProjGym
 
         private void comment(object sender, EventArgs e)
         {
-            
+            Button btn_comment = (Button)sender;
+            FrmMember_CommentCourse frmMember_CommentCourse = new FrmMember_CommentCourse();
+            frmMember_CommentCourse.StartPosition = FormStartPosition.CenterScreen;
+            frmMember_CommentCourse.member = this.member;
+            frmMember_CommentCourse._classReserveID = Convert.ToInt32(btn_comment.Tag);
+            frmMember_CommentCourse.ShowDialog();
         }
     }
 }

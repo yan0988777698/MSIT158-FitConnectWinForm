@@ -84,7 +84,7 @@ namespace ProjGym
             var expertises = from expertise in _gymEntity.tcoach_expert
                              where expertise.coach_id == index
                              select expertise;
-            foreach(var expertise in expertises)
+            foreach (var expertise in expertises)
             {
                 _gymEntity.tcoach_expert.Remove(expertise);
             }
@@ -176,7 +176,8 @@ namespace ProjGym
                              select expertise;
             expertises.ToList().ForEach(expertise => this.cb_Expertise.SelectedIndex = expertise.class_id - 1);
             tcoach_info_id coach_Info = _gymEntity.tcoach_info_id.FirstOrDefault(x => x.coach_id == index);
-            tb_Intro.Text = coach_Info.coach_intro;
+            if (coach_Info != null)
+                tb_Intro.Text = coach_Info.coach_intro;
 
             if (!string.IsNullOrEmpty(_filename))
             {

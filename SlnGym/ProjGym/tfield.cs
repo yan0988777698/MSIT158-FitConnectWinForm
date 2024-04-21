@@ -19,6 +19,7 @@ namespace ProjGym
         {
             this.tclass_schedule = new HashSet<tclass_schedule>();
             this.tfield_reserve = new HashSet<tfield_reserve>();
+            this.tfield_photo = new HashSet<tfield_photo>();
         }
     
         public int field_id { get; set; }
@@ -26,12 +27,13 @@ namespace ProjGym
         public string floor { get; set; }
         public string field_name { get; set; }
         public decimal field_payment { get; set; }
-        public string field_photo { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tclass_schedule> tclass_schedule { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tfield_reserve> tfield_reserve { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tfield_photo> tfield_photo { get; set; }
         public virtual tGym tGym { get; set; }
     }
 }

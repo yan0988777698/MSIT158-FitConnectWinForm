@@ -20,7 +20,7 @@ namespace ProjGym
             if (System.Environment.OSVersion.Version.Major >= 6) { SetProcessDPIAware(); }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMember_CommentCourse());
+            Application.Run(new FrmMain_Main());
         }
     }
 }

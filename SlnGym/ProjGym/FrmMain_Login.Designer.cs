@@ -75,7 +75,7 @@
             this.tb_UserName.Name = "tb_UserName";
             this.tb_UserName.Size = new System.Drawing.Size(356, 34);
             this.tb_UserName.TabIndex = 2;
-            this.tb_UserName.Text = "0000";
+            this.tb_UserName.Text = "0912345678";
             // 
             // tb_Password
             // 
@@ -86,7 +86,7 @@
             this.tb_Password.PasswordChar = '*';
             this.tb_Password.Size = new System.Drawing.Size(356, 34);
             this.tb_Password.TabIndex = 4;
-            this.tb_Password.Text = "admin";
+            this.tb_Password.Text = "admin12345";
             // 
             // label3
             // 
@@ -183,7 +183,7 @@
             this.btn_CoachRegister.UseVisualStyleBackColor = false;
             this.btn_CoachRegister.Click += new System.EventHandler(this.btn_CoachRegister_Click);
             // 
-            // FrmLogin
+            // FrmMain_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -202,7 +202,7 @@
             this.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "FrmLogin";
+            this.Name = "FrmMain_Login";
             this.Text = "登入";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCustomerLogin_FormClosing);
             this.ResumeLayout(false);
