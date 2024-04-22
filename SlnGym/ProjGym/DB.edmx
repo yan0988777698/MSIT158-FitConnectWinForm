@@ -210,7 +210,7 @@
           <Key>
             <PropertyRef Name="rate_id" />
           </Key>
-          <Property Name="rate_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="rate_id" Type="int" Nullable="false" />
           <Property Name="reserve_id" Type="int" Nullable="false" />
           <Property Name="member_id" Type="int" Nullable="false" />
           <Property Name="class_id" Type="int" Nullable="false" />
@@ -967,7 +967,7 @@
           <Key>
             <PropertyRef Name="rate_id" />
           </Key>
-          <Property Name="rate_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="rate_id" Type="Int32" Nullable="false" />
           <Property Name="reserve_id" Type="Int32" Nullable="false" />
           <Property Name="member_id" Type="Int32" Nullable="false" />
           <Property Name="class_id" Type="Int32" Nullable="false" />

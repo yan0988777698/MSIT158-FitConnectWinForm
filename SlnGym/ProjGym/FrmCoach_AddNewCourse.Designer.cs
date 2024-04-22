@@ -71,7 +71,7 @@
             this.cb_Class.Location = new System.Drawing.Point(332, 96);
             this.cb_Class.Margin = new System.Windows.Forms.Padding(5);
             this.cb_Class.Name = "cb_Class";
-            this.cb_Class.Size = new System.Drawing.Size(179, 29);
+            this.cb_Class.Size = new System.Drawing.Size(179, 33);
             this.cb_Class.TabIndex = 0;
             // 
             // label1
@@ -83,7 +83,7 @@
             this.label1.Location = new System.Drawing.Point(332, 68);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 21);
+            this.label1.Size = new System.Drawing.Size(57, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "課程:";
             // 
@@ -96,7 +96,7 @@
             this.label2.Location = new System.Drawing.Point(567, 68);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 21);
+            this.label2.Size = new System.Drawing.Size(57, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "場地:";
             // 
@@ -110,7 +110,7 @@
             this.cb_Field.Location = new System.Drawing.Point(567, 96);
             this.cb_Field.Margin = new System.Windows.Forms.Padding(5);
             this.cb_Field.Name = "cb_Field";
-            this.cb_Field.Size = new System.Drawing.Size(270, 29);
+            this.cb_Field.Size = new System.Drawing.Size(270, 33);
             this.cb_Field.TabIndex = 2;
             // 
             // label3
@@ -122,7 +122,7 @@
             this.label3.Location = new System.Drawing.Point(731, 182);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 21);
+            this.label3.Size = new System.Drawing.Size(117, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "已選擇日期:";
             // 
@@ -135,7 +135,7 @@
             this.label4.Location = new System.Drawing.Point(360, 542);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 21);
+            this.label4.Size = new System.Drawing.Size(97, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "開始時段:";
             // 
@@ -149,7 +149,7 @@
             this.cb_TimePeriodStart.Location = new System.Drawing.Point(465, 539);
             this.cb_TimePeriodStart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cb_TimePeriodStart.Name = "cb_TimePeriodStart";
-            this.cb_TimePeriodStart.Size = new System.Drawing.Size(144, 29);
+            this.cb_TimePeriodStart.Size = new System.Drawing.Size(144, 33);
             this.cb_TimePeriodStart.TabIndex = 6;
             this.cb_TimePeriodStart.SelectedIndexChanged += new System.EventHandler(this.cb_TimePeriod_SelectedIndexChanged);
             // 
@@ -163,7 +163,7 @@
             this.cb_TimePeriodEnd.Location = new System.Drawing.Point(787, 539);
             this.cb_TimePeriodEnd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cb_TimePeriodEnd.Name = "cb_TimePeriodEnd";
-            this.cb_TimePeriodEnd.Size = new System.Drawing.Size(144, 29);
+            this.cb_TimePeriodEnd.Size = new System.Drawing.Size(144, 33);
             this.cb_TimePeriodEnd.TabIndex = 8;
             this.cb_TimePeriodEnd.SelectedIndexChanged += new System.EventHandler(this.cb_TimePeriod_SelectedIndexChanged);
             // 
@@ -176,7 +176,7 @@
             this.label5.Location = new System.Drawing.Point(681, 542);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 21);
+            this.label5.Size = new System.Drawing.Size(97, 25);
             this.label5.TabIndex = 7;
             this.label5.Text = "結束時段:";
             // 
@@ -196,11 +196,11 @@
             this.lb_SelectedDate.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lb_SelectedDate.BackColor = System.Drawing.Color.Snow;
             this.lb_SelectedDate.FormattingEnabled = true;
-            this.lb_SelectedDate.ItemHeight = 21;
+            this.lb_SelectedDate.ItemHeight = 25;
             this.lb_SelectedDate.Location = new System.Drawing.Point(630, 216);
             this.lb_SelectedDate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lb_SelectedDate.Name = "lb_SelectedDate";
-            this.lb_SelectedDate.Size = new System.Drawing.Size(341, 193);
+            this.lb_SelectedDate.Size = new System.Drawing.Size(341, 179);
             this.lb_SelectedDate.TabIndex = 10;
             // 
             // btn_ClearSelectedDate
@@ -210,7 +210,7 @@
             this.btn_ClearSelectedDate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Pink;
             this.btn_ClearSelectedDate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MistyRose;
             this.btn_ClearSelectedDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ClearSelectedDate.Location = new System.Drawing.Point(887, 369);
+            this.btn_ClearSelectedDate.Location = new System.Drawing.Point(887, 418);
             this.btn_ClearSelectedDate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_ClearSelectedDate.Name = "btn_ClearSelectedDate";
             this.btn_ClearSelectedDate.Size = new System.Drawing.Size(84, 40);
@@ -244,7 +244,7 @@
             this.label6.Location = new System.Drawing.Point(877, 68);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 21);
+            this.label6.Size = new System.Drawing.Size(97, 25);
             this.label6.TabIndex = 14;
             this.label6.Text = "人數上限:";
             // 
@@ -255,7 +255,7 @@
             this.numericUpDown_MaxStudent.Location = new System.Drawing.Point(877, 96);
             this.numericUpDown_MaxStudent.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.numericUpDown_MaxStudent.Name = "numericUpDown_MaxStudent";
-            this.numericUpDown_MaxStudent.Size = new System.Drawing.Size(94, 29);
+            this.numericUpDown_MaxStudent.Size = new System.Drawing.Size(94, 34);
             this.numericUpDown_MaxStudent.TabIndex = 15;
             // 
             // lbl_Course
@@ -267,7 +267,7 @@
             this.lbl_Course.Location = new System.Drawing.Point(332, 129);
             this.lbl_Course.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Course.Name = "lbl_Course";
-            this.lbl_Course.Size = new System.Drawing.Size(0, 21);
+            this.lbl_Course.Size = new System.Drawing.Size(0, 25);
             this.lbl_Course.TabIndex = 16;
             // 
             // lbl_Field
@@ -279,7 +279,7 @@
             this.lbl_Field.Location = new System.Drawing.Point(567, 129);
             this.lbl_Field.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Field.Name = "lbl_Field";
-            this.lbl_Field.Size = new System.Drawing.Size(0, 21);
+            this.lbl_Field.Size = new System.Drawing.Size(0, 25);
             this.lbl_Field.TabIndex = 17;
             // 
             // lbl_Start
@@ -291,7 +291,7 @@
             this.lbl_Start.Location = new System.Drawing.Point(360, 573);
             this.lbl_Start.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Start.Name = "lbl_Start";
-            this.lbl_Start.Size = new System.Drawing.Size(0, 21);
+            this.lbl_Start.Size = new System.Drawing.Size(0, 25);
             this.lbl_Start.TabIndex = 18;
             // 
             // lbl_End
@@ -303,7 +303,7 @@
             this.lbl_End.Location = new System.Drawing.Point(681, 573);
             this.lbl_End.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_End.Name = "lbl_End";
-            this.lbl_End.Size = new System.Drawing.Size(0, 21);
+            this.lbl_End.Size = new System.Drawing.Size(0, 25);
             this.lbl_End.TabIndex = 18;
             // 
             // lbl_MaxMember
@@ -315,7 +315,7 @@
             this.lbl_MaxMember.Location = new System.Drawing.Point(877, 129);
             this.lbl_MaxMember.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_MaxMember.Name = "lbl_MaxMember";
-            this.lbl_MaxMember.Size = new System.Drawing.Size(0, 21);
+            this.lbl_MaxMember.Size = new System.Drawing.Size(0, 25);
             this.lbl_MaxMember.TabIndex = 19;
             // 
             // lbl_SelectedDate
@@ -327,7 +327,7 @@
             this.lbl_SelectedDate.Location = new System.Drawing.Point(847, 183);
             this.lbl_SelectedDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_SelectedDate.Name = "lbl_SelectedDate";
-            this.lbl_SelectedDate.Size = new System.Drawing.Size(0, 21);
+            this.lbl_SelectedDate.Size = new System.Drawing.Size(0, 25);
             this.lbl_SelectedDate.TabIndex = 20;
             // 
             // lbl_HoursPerCourse
@@ -340,7 +340,7 @@
             this.lbl_HoursPerCourse.Location = new System.Drawing.Point(555, 612);
             this.lbl_HoursPerCourse.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_HoursPerCourse.Name = "lbl_HoursPerCourse";
-            this.lbl_HoursPerCourse.Size = new System.Drawing.Size(105, 26);
+            this.lbl_HoursPerCourse.Size = new System.Drawing.Size(135, 35);
             this.lbl_HoursPerCourse.TabIndex = 21;
             this.lbl_HoursPerCourse.Text = "預約_小時";
             // 
@@ -391,7 +391,7 @@
             this.label8.Location = new System.Drawing.Point(368, 188);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 21);
+            this.label8.Size = new System.Drawing.Size(132, 25);
             this.label8.TabIndex = 25;
             this.label8.Text = "點擊選擇日期";
             // 
@@ -405,7 +405,7 @@
             this.lbl_Days.Location = new System.Drawing.Point(654, 423);
             this.lbl_Days.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Days.Name = "lbl_Days";
-            this.lbl_Days.Size = new System.Drawing.Size(84, 26);
+            this.lbl_Days.Size = new System.Drawing.Size(108, 35);
             this.lbl_Days.TabIndex = 26;
             this.lbl_Days.Text = "預約_天";
             // 
@@ -424,7 +424,7 @@
             // 
             // FrmCoach_AddNewCourse
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));

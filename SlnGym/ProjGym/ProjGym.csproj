@@ -71,6 +71,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="FrmCoach_CheckCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCoach_CheckCourse.Designer.cs">
+      <DependentUpon>FrmCoach_CheckCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCoach_NewRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,12 @@
     </Compile>
     <Compile Include="ttimes_detail.cs">
       <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="使用者控制項\UCCoach_OpenedCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="使用者控制項\UCCoach_OpenedCourse.Designer.cs">
+      <DependentUpon>UCCoach_OpenedCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="使用者控制項\UCMember_FindCoach.cs">
       <SubType>UserControl</SubType>
@@ -307,6 +319,9 @@
     <Compile Include="使用者控制項\UCMember_UniformNumbers.Designer.cs">
       <DependentUpon>UCMember_UniformNumbers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmCoach_CheckCourse.resx">
+      <DependentUpon>FrmCoach_CheckCourse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCoach_NewRegister.resx">
       <DependentUpon>FrmCoach_NewRegister.cs</DependentUpon>
     </EmbeddedResource>
@@ -321,6 +336,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMember_GoPay.resx">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="使用者控制項\UCCoach_OpenedCourse.resx">
+      <DependentUpon>UCCoach_OpenedCourse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="使用者控制項\UCMember_FindCoach.resx">
       <DependentUpon>UCMember_FindCoach.cs</DependentUpon>
@@ -417,30 +435,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\180316-7279-0-HqHnC.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\180316-7279-0-HqHnC1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\search.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\youtube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\instagram.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\facebook.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8959dc0fb566fa7cd774ce86edb0f611.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -454,6 +448,9 @@
       <DependentUpon>DB.edmx</DependentUpon>
       <LastGenOutput>DB.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

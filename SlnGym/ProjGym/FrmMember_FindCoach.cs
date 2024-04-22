@@ -75,6 +75,7 @@ namespace ProjGym
                                         district = schedule.tfield.tGym.tregion_table.region
                                     };
                     UCMember_FindCoach uCMember_FindCoach = new UCMember_FindCoach();
+                    uCMember_FindCoach.btnMore.Click += this.moreInfo;
                     uCMember_FindCoach.name = coach.姓名;
                     expertises.ToList().ForEach(expertise =>
                     {
@@ -98,6 +99,11 @@ namespace ProjGym
             );
 
             lbl_NumberOfCoaches.Text = $"共有{coaches.ToList().Count}位教練";
+        }
+
+        private void moreInfo(object sender, EventArgs e)
+        {
+            //顯示更多關於教練的資訊
         }
 
         private void btn_Search_Click(object sender, EventArgs e)

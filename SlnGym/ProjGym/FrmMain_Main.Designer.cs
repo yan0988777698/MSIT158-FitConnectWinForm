@@ -270,9 +270,11 @@
             // 
             // 我的開課ToolStripMenuItem
             // 
+            this.我的開課ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("我的開課ToolStripMenuItem.Image")));
             this.我的開課ToolStripMenuItem.Name = "我的開課ToolStripMenuItem";
             this.我的開課ToolStripMenuItem.Size = new System.Drawing.Size(220, 32);
             this.我的開課ToolStripMenuItem.Text = "查看已開課程";
+            this.我的開課ToolStripMenuItem.Click += new System.EventHandler(this.我的開課ToolStripMenuItem_Click);
             // 
             // 關於我們ToolStripMenuItem
             // 
@@ -287,23 +289,20 @@
             // 
             // facebookToolStripMenuItem
             // 
-            this.facebookToolStripMenuItem.Image = global::ProjGym.Properties.Resources.facebook;
             this.facebookToolStripMenuItem.Name = "facebookToolStripMenuItem";
-            this.facebookToolStripMenuItem.Size = new System.Drawing.Size(195, 32);
+            this.facebookToolStripMenuItem.Size = new System.Drawing.Size(191, 32);
             this.facebookToolStripMenuItem.Text = "Facebook";
             // 
             // instagramToolStripMenuItem
             // 
-            this.instagramToolStripMenuItem.Image = global::ProjGym.Properties.Resources.instagram;
             this.instagramToolStripMenuItem.Name = "instagramToolStripMenuItem";
-            this.instagramToolStripMenuItem.Size = new System.Drawing.Size(195, 32);
+            this.instagramToolStripMenuItem.Size = new System.Drawing.Size(191, 32);
             this.instagramToolStripMenuItem.Text = "Instagram";
             // 
             // youtubeToolStripMenuItem
             // 
-            this.youtubeToolStripMenuItem.Image = global::ProjGym.Properties.Resources.youtube;
             this.youtubeToolStripMenuItem.Name = "youtubeToolStripMenuItem";
-            this.youtubeToolStripMenuItem.Size = new System.Drawing.Size(195, 32);
+            this.youtubeToolStripMenuItem.Size = new System.Drawing.Size(191, 32);
             this.youtubeToolStripMenuItem.Text = "Youtube";
             // 
             // 管理員ToolStripMenuItem

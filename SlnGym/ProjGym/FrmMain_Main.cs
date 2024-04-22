@@ -208,5 +208,13 @@ namespace ProjGym
             frmMember_FindCoach.member = this.member;
             setPage(frmMember_FindCoach);
         }
+
+        private void 我的開課ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            closeCurrentForm();
+            FrmCoach_CheckCourse frmCoach_CheckCourse = new FrmCoach_CheckCourse();
+            frmCoach_CheckCourse.member = this.member;
+            setPage(frmCoach_CheckCourse);
+        }
     }
 }

@@ -600,7 +600,7 @@
   <data name="歷史訂單ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        bAAADmwBBrqreQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABpSSURBVHhe7d1Z
+        aQAADmkBKwDOjwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABpSSURBVHhe7d1Z
         rO77XRbwMlTU4BCckjol1DpErNMFziEBccAL6uwNaLWaGJy9AWciKUUBL8A5QXH2BmdJtMXpBscbHCOD
         mlCHIDVoQcXW59/uRdfe+9lrr+F9v//p8ySfmyc556yz91rv75t09zlv+OAHP7hpyZvjC+PvxL+Pb49v
         ivfEl8aPbX8dAPBqtdyC5K3x1fGBWIq7fE18avv7AAAvq+XakrfH++P2I38fXxWf2P6eAMBH1HJNyRc8
@@ -1309,6 +1309,17 @@
         x+3H+pLM9wLALbVcw/I4x/vi9sN9CeZ7AeAFtVxL8pnPHu1LMN8LAK9QyzUlXxC3H/KHMt8LAK9Ry7Ul
         b4/3x+2H/T7M9wLAPdRyC5K3xlfH8gf4bj/yzXvCfC8A3FMttyR5S3xRLKM9y/9//9vjG+Pd8cXxY9pf
         BwC8ygff8P8BCKmcMAQd+OQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="我的開課ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAOYAAADmASJculEAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAABEUlEQVRYR+XXPw4BURAG8CcKjUqppFWL3glcgAu4gAvYCziBC2gVEi21WisalUYhnm8kk5lk7do/
+        b3cKkl/yRezbL8Hse857/4HXFjbQ5/fqIMG5K1B4QARt/cGqSJAC7AIzaOgLQpMQL8COMNIXhSQhuQB5
+        wRq6+uIQJKQXYHdYQEsvUoaEbAXYGSZ6oaIk5CvAdjDQC+YloVgB8oQVdPTCWUkoXoDdYA5NfYNfJJQv
+        wE4w1jdJIyFcAUZjvadv9o2E8AUIjfUlJI51CdUUYDTWpxAb63UVYAcYWhYgNNajvy1g9hWY/QhN/4Zm
+        g8hsFJs9jEwfx2YbErMtmdmm1HRbbnYwMTuamR1O91Dz8dy7NxP3zb0hNdJUAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="開課審核ToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -16,6 +16,7 @@ namespace ProjGym.使用者控制項
         public string expertise { get { return this.lbl_Expertise.Text; } set { this.lbl_Expertise.Text = value; } }
         public string district { get { return this.lbl_District.Text; } set { this.lbl_District.Text = value; } }
         public string intro { get { return this.lbl_Intro.Text; } set { this.lbl_Intro.Text = value; } }
+        public Button btnMore { get { return this.btn_More; } }
         public UCMember_FindCoach()
         {
             InitializeComponent();
