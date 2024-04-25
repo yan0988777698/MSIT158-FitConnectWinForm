@@ -48,6 +48,7 @@
             this.btn_Info.TabIndex = 9;
             this.btn_Info.Text = "詳細資訊";
             this.btn_Info.UseVisualStyleBackColor = false;
+            this.btn_Info.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // lbl_Address
             // 

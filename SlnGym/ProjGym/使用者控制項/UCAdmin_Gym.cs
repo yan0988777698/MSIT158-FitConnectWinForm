@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjGym.FrmMember;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,14 +34,13 @@ namespace ProjGym.使用者控制項
         private void btnInfo_Click(object sender, EventArgs e)
         {
             //TODO:
-            //FrmGymInfo f = new FrmGymInfo();
-            //f.gymname = this.gymname;
-            //f.gymtime = this.gymtime;
-            //f.gymaddress = this.gymaddress;
-            //f.gymdescribe = "";
-            //f.fieldid = this.gymid;
-            //f.showGymfield();
-            //f.Show();
+            FrmMember_GymInfo frmMember_GymInfo = new FrmMember_GymInfo();
+            frmMember_GymInfo.gymname = this.gymname;
+            frmMember_GymInfo.gymtime = this.gymtime;
+            frmMember_GymInfo.gymaddress = this.gymaddress;
+            frmMember_GymInfo.gymdescribe = "";
+            frmMember_GymInfo.gymid = this.gymid;
+            frmMember_GymInfo.Show();
         }
     }
 }

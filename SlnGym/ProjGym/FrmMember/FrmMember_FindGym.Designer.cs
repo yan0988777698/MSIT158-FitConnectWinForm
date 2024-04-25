@@ -54,11 +54,11 @@
             this.lblSearch.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSearch.AutoSize = true;
             this.lblSearch.BackColor = System.Drawing.Color.Transparent;
-            this.lblSearch.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblSearch.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblSearch.ForeColor = System.Drawing.Color.Blue;
-            this.lblSearch.Location = new System.Drawing.Point(71, 36);
+            this.lblSearch.Location = new System.Drawing.Point(65, 36);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(41, 20);
+            this.lblSearch.Size = new System.Drawing.Size(48, 24);
             this.lblSearch.TabIndex = 12;
             this.lblSearch.Text = "搜尋";
             // 
@@ -67,11 +67,11 @@
             this.lblRegion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblRegion.AutoSize = true;
             this.lblRegion.BackColor = System.Drawing.Color.Transparent;
-            this.lblRegion.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblRegion.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblRegion.ForeColor = System.Drawing.Color.Blue;
-            this.lblRegion.Location = new System.Drawing.Point(395, 36);
+            this.lblRegion.Location = new System.Drawing.Point(610, 36);
             this.lblRegion.Name = "lblRegion";
-            this.lblRegion.Size = new System.Drawing.Size(41, 20);
+            this.lblRegion.Size = new System.Drawing.Size(48, 24);
             this.lblRegion.TabIndex = 11;
             this.lblRegion.Text = "地區";
             // 
@@ -80,43 +80,43 @@
             this.lblCity.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCity.AutoSize = true;
             this.lblCity.BackColor = System.Drawing.Color.Transparent;
-            this.lblCity.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblCity.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblCity.ForeColor = System.Drawing.Color.Blue;
-            this.lblCity.Location = new System.Drawing.Point(230, 36);
+            this.lblCity.Location = new System.Drawing.Point(377, 36);
             this.lblCity.Name = "lblCity";
-            this.lblCity.Size = new System.Drawing.Size(41, 20);
+            this.lblCity.Size = new System.Drawing.Size(48, 24);
             this.lblCity.TabIndex = 10;
             this.lblCity.Text = "縣市";
             // 
             // cb_Region
             // 
             this.cb_Region.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cb_Region.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.cb_Region.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.cb_Region.FormattingEnabled = true;
-            this.cb_Region.Location = new System.Drawing.Point(439, 33);
+            this.cb_Region.Location = new System.Drawing.Point(660, 32);
             this.cb_Region.Name = "cb_Region";
-            this.cb_Region.Size = new System.Drawing.Size(104, 28);
+            this.cb_Region.Size = new System.Drawing.Size(104, 32);
             this.cb_Region.TabIndex = 9;
             this.cb_Region.SelectedIndexChanged += new System.EventHandler(this.cb_Region_SelectedIndexChanged);
             // 
             // cb_City
             // 
             this.cb_City.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cb_City.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.cb_City.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.cb_City.FormattingEnabled = true;
-            this.cb_City.Location = new System.Drawing.Point(275, 33);
+            this.cb_City.Location = new System.Drawing.Point(427, 32);
             this.cb_City.Name = "cb_City";
-            this.cb_City.Size = new System.Drawing.Size(104, 28);
+            this.cb_City.Size = new System.Drawing.Size(104, 32);
             this.cb_City.TabIndex = 8;
             this.cb_City.SelectedIndexChanged += new System.EventHandler(this.cbCity_SelectedIndexChanged);
             // 
             // tb_Search
             // 
             this.tb_Search.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.tb_Search.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_Search.Location = new System.Drawing.Point(115, 33);
+            this.tb_Search.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_Search.Location = new System.Drawing.Point(115, 32);
             this.tb_Search.Name = "tb_Search";
-            this.tb_Search.Size = new System.Drawing.Size(107, 29);
+            this.tb_Search.Size = new System.Drawing.Size(152, 33);
             this.tb_Search.TabIndex = 7;
             this.tb_Search.TextChanged += new System.EventHandler(this.tb_Search_TextChanged);
             // 

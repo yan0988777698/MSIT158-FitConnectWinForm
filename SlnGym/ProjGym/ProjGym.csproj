@@ -71,47 +71,53 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DB.edmx</DependentUpon>
     </Compile>
-    <Compile Include="FrmCoach_CheckCourse.cs">
+    <Compile Include="FrmCoach\FrmCoach_CheckCourse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCoach_CheckCourse.Designer.cs">
+    <Compile Include="FrmCoach\FrmCoach_CheckCourse.Designer.cs">
       <DependentUpon>FrmCoach_CheckCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCoach_NewRegister.cs">
+    <Compile Include="FrmCoach\FrmCoach_NewRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCoach_NewRegister.Designer.cs">
+    <Compile Include="FrmCoach\FrmCoach_NewRegister.Designer.cs">
       <DependentUpon>FrmCoach_NewRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_CommentCourse.cs">
+    <Compile Include="FrmMember\FrmMember_CommentCourse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_CommentCourse.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_CommentCourse.Designer.cs">
       <DependentUpon>FrmMember_CommentCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_CourseHistory.cs">
+    <Compile Include="FrmMember\FrmMember_CourseHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_CourseHistory.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_CourseHistory.Designer.cs">
       <DependentUpon>FrmMember_CourseHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_FindCoach.cs">
+    <Compile Include="FrmMember\FrmMember_FindCoach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_FindCoach.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_FindCoach.Designer.cs">
       <DependentUpon>FrmMember_FindCoach.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_FindGym.cs">
+    <Compile Include="FrmMember\FrmMember_FindGym.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_FindGym.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_FindGym.Designer.cs">
       <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_GoPay.cs">
+    <Compile Include="FrmMember\FrmMember_GoPay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_GoPay.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_GoPay.Designer.cs">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMember\FrmMember_GymInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember\FrmMember_GymInfo.Designer.cs">
+      <DependentUpon>FrmMember_GymInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>DB.tt</DependentUpon>
@@ -218,52 +224,52 @@
     <Compile Include="使用者控制項\UCMember_FindCourse.Designer.cs">
       <DependentUpon>UCMember_FindCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdmin_CoachVerification.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_CoachVerification.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdmin_CoachVerification.Designer.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_CoachVerification.Designer.cs">
       <DependentUpon>FrmAdmin_CoachVerification.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdmin_MemberPayment.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_MemberPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdmin_MemberPayment.Designer.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_MemberPayment.Designer.cs">
       <DependentUpon>FrmAdmin_MemberPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCoach_EditRegister.cs">
+    <Compile Include="FrmCoach\FrmCoach_EditRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCoach_EditRegister.Designer.cs">
+    <Compile Include="FrmCoach\FrmCoach_EditRegister.Designer.cs">
       <DependentUpon>FrmCoach_EditRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_CourseCart.cs">
+    <Compile Include="FrmMember\FrmMember_CourseCart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_CourseCart.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_CourseCart.Designer.cs">
       <DependentUpon>FrmMember_CourseCart.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_FindClass.cs">
+    <Compile Include="FrmMember\FrmMember_FindClass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_FindClass.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_FindClass.Designer.cs">
       <DependentUpon>FrmMember_FindClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdmin_ClassUpdate.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_ClassUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdmin_ClassUpdate.designer.cs">
+    <Compile Include="FrmAdmin\FrmAdmin_ClassUpdate.designer.cs">
       <DependentUpon>FrmAdmin_ClassUpdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCoach_AddNewCourse.cs">
+    <Compile Include="FrmCoach\FrmCoach_AddNewCourse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCoach_AddNewCourse.Designer.cs">
+    <Compile Include="FrmCoach\FrmCoach_AddNewCourse.Designer.cs">
       <DependentUpon>FrmCoach_AddNewCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_FindClassAndReserve.cs">
+    <Compile Include="FrmMember\FrmMember_FindClassAndReserve.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_FindClassAndReserve.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_FindClassAndReserve.Designer.cs">
       <DependentUpon>FrmMember_FindClassAndReserve.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMain_Login.cs">
@@ -278,22 +284,22 @@
     <Compile Include="FrmMain_Main.Designer.cs">
       <DependentUpon>FrmMain_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_EditRegister.cs">
+    <Compile Include="FrmMember\FrmMember_EditRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_EditRegister.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_EditRegister.Designer.cs">
       <DependentUpon>FrmMember_EditRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_NewRegister.cs">
+    <Compile Include="FrmMember\FrmMember_NewRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_NewRegister.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_NewRegister.Designer.cs">
       <DependentUpon>FrmMember_NewRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMember_QA.cs">
+    <Compile Include="FrmMember\FrmMember_QA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMember_QA.Designer.cs">
+    <Compile Include="FrmMember\FrmMember_QA.Designer.cs">
       <DependentUpon>FrmMember_QA.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMain_Announce.cs">
@@ -334,26 +340,29 @@
     <Compile Include="使用者控制項\UCMember_UniformNumbers.Designer.cs">
       <DependentUpon>UCMember_UniformNumbers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmCoach_CheckCourse.resx">
+    <EmbeddedResource Include="FrmCoach\FrmCoach_CheckCourse.resx">
       <DependentUpon>FrmCoach_CheckCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCoach_NewRegister.resx">
+    <EmbeddedResource Include="FrmCoach\FrmCoach_NewRegister.resx">
       <DependentUpon>FrmCoach_NewRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_CommentCourse.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_CommentCourse.resx">
       <DependentUpon>FrmMember_CommentCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_CourseHistory.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_CourseHistory.resx">
       <DependentUpon>FrmMember_CourseHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_FindCoach.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_FindCoach.resx">
       <DependentUpon>FrmMember_FindCoach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_FindGym.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_FindGym.resx">
       <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_GoPay.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_GoPay.resx">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember\FrmMember_GymInfo.resx">
+      <DependentUpon>FrmMember_GymInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="使用者控制項\UCAdmin_Gym.resx">
       <DependentUpon>UCAdmin_Gym.cs</DependentUpon>
@@ -367,28 +376,28 @@
     <EmbeddedResource Include="使用者控制項\UCMember_FindCourse.resx">
       <DependentUpon>UCMember_FindCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAdmin_CoachVerification.resx">
+    <EmbeddedResource Include="FrmAdmin\FrmAdmin_CoachVerification.resx">
       <DependentUpon>FrmAdmin_CoachVerification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAdmin_MemberPayment.resx">
+    <EmbeddedResource Include="FrmAdmin\FrmAdmin_MemberPayment.resx">
       <DependentUpon>FrmAdmin_MemberPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCoach_AddNewCourse.resx">
+    <EmbeddedResource Include="FrmCoach\FrmCoach_AddNewCourse.resx">
       <DependentUpon>FrmCoach_AddNewCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCoach_EditRegister.resx">
+    <EmbeddedResource Include="FrmCoach\FrmCoach_EditRegister.resx">
       <DependentUpon>FrmCoach_EditRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_CourseCart.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_CourseCart.resx">
       <DependentUpon>FrmMember_CourseCart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_FindClass.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_FindClass.resx">
       <DependentUpon>FrmMember_FindClass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAdmin_ClassUpdate.resx">
+    <EmbeddedResource Include="FrmAdmin\FrmAdmin_ClassUpdate.resx">
       <DependentUpon>FrmAdmin_ClassUpdate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_FindClassAndReserve.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_FindClassAndReserve.resx">
       <DependentUpon>FrmMember_FindClassAndReserve.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain_Login.resx">
@@ -397,13 +406,13 @@
     <EmbeddedResource Include="FrmMain_Main.resx">
       <DependentUpon>FrmMain_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_EditRegister.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_EditRegister.resx">
       <DependentUpon>FrmMember_EditRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_NewRegister.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_NewRegister.resx">
       <DependentUpon>FrmMember_NewRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMember_QA.resx">
+    <EmbeddedResource Include="FrmMember\FrmMember_QA.resx">
       <DependentUpon>FrmMember_QA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain_Announce.resx">
