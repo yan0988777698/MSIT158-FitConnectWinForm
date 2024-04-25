@@ -101,6 +101,12 @@
     <Compile Include="FrmMember_FindCoach.Designer.cs">
       <DependentUpon>FrmMember_FindCoach.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMember_FindGym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember_FindGym.Designer.cs">
+      <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMember_GoPay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     <Compile Include="tcompany.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
+    <Compile Include="tcourse_photo.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="tfield.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
@@ -184,6 +193,12 @@
     </Compile>
     <Compile Include="ttimes_detail.cs">
       <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="使用者控制項\UCAdmin_Gym.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="使用者控制項\UCAdmin_Gym.Designer.cs">
+      <DependentUpon>UCAdmin_Gym.cs</DependentUpon>
     </Compile>
     <Compile Include="使用者控制項\UCCoach_OpenedCourse.cs">
       <SubType>UserControl</SubType>
@@ -334,8 +349,14 @@
     <EmbeddedResource Include="FrmMember_FindCoach.resx">
       <DependentUpon>FrmMember_FindCoach.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember_FindGym.resx">
+      <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMember_GoPay.resx">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="使用者控制項\UCAdmin_Gym.resx">
+      <DependentUpon>UCAdmin_Gym.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="使用者控制項\UCCoach_OpenedCourse.resx">
       <DependentUpon>UCCoach_OpenedCourse.cs</DependentUpon>
@@ -438,6 +459,9 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="DB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DB.edmx</DependentUpon>
@@ -448,9 +472,6 @@
       <DependentUpon>DB.edmx</DependentUpon>
       <LastGenOutput>DB.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace ProjGym
 {
-    public partial class uc_Product : UserControl
+    public partial class UCMember_Product : UserControl
     {
-        public uc_Product()
+        public UCMember_Product()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace ProjGym
 {
-    partial class uc_Product
+    partial class UCMember_Product
     {
         /// <summary> 
         /// 設計工具所需的變數。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(uc_Product));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCMember_Product));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lb_SalesVolume = new System.Windows.Forms.Label();

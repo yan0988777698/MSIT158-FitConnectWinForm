@@ -35,8 +35,8 @@
             this.常見問題ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.預約體驗ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.教練資訊ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.團體課程ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.訓練課程ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.場館資訊ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.課程資訊ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.視窗WToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.商城ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保健食品ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -81,7 +81,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.檔案FToolStripMenuItem,
             this.教練資訊ToolStripMenuItem,
-            this.團體課程ToolStripMenuItem,
+            this.場館資訊ToolStripMenuItem,
+            this.課程資訊ToolStripMenuItem,
             this.視窗WToolStripMenuItem,
             this.說明HToolStripMenuItem,
             this.教練ToolStripMenuItem,
@@ -90,7 +91,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 164);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(109, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1229, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1324, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -135,22 +136,20 @@
             this.教練資訊ToolStripMenuItem.Text = "教練資訊";
             this.教練資訊ToolStripMenuItem.Click += new System.EventHandler(this.教練資訊ToolStripMenuItem_Click);
             // 
-            // 團體課程ToolStripMenuItem
+            // 場館資訊ToolStripMenuItem
             // 
-            this.團體課程ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.訓練課程ToolStripMenuItem});
-            this.團體課程ToolStripMenuItem.Name = "團體課程ToolStripMenuItem";
-            this.團體課程ToolStripMenuItem.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.團體課程ToolStripMenuItem.Size = new System.Drawing.Size(102, 32);
-            this.團體課程ToolStripMenuItem.Text = "找課程";
+            this.場館資訊ToolStripMenuItem.Name = "場館資訊ToolStripMenuItem";
+            this.場館資訊ToolStripMenuItem.Size = new System.Drawing.Size(112, 32);
+            this.場館資訊ToolStripMenuItem.Text = "場館資訊";
+            this.場館資訊ToolStripMenuItem.Click += new System.EventHandler(this.場館資訊ToolStripMenuItem_Click);
             // 
-            // 訓練課程ToolStripMenuItem
+            // 課程資訊ToolStripMenuItem
             // 
-            this.訓練課程ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("訓練課程ToolStripMenuItem.Image")));
-            this.訓練課程ToolStripMenuItem.Name = "訓練課程ToolStripMenuItem";
-            this.訓練課程ToolStripMenuItem.Size = new System.Drawing.Size(176, 32);
-            this.訓練課程ToolStripMenuItem.Text = "訓練課程";
-            this.訓練課程ToolStripMenuItem.Click += new System.EventHandler(this.訓練課程ToolStripMenuItem_Click);
+            this.課程資訊ToolStripMenuItem.Name = "課程資訊ToolStripMenuItem";
+            this.課程資訊ToolStripMenuItem.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.課程資訊ToolStripMenuItem.Size = new System.Drawing.Size(124, 32);
+            this.課程資訊ToolStripMenuItem.Text = "課程資訊";
+            this.課程資訊ToolStripMenuItem.Click += new System.EventHandler(this.課程資訊ToolStripMenuItem_Click);
             // 
             // 視窗WToolStripMenuItem
             // 
@@ -381,7 +380,7 @@
             this.panel_Top.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Top.Location = new System.Drawing.Point(0, 0);
             this.panel_Top.Name = "panel_Top";
-            this.panel_Top.Size = new System.Drawing.Size(1229, 200);
+            this.panel_Top.Size = new System.Drawing.Size(1324, 200);
             this.panel_Top.TabIndex = 0;
             // 
             // pictureBox1
@@ -393,7 +392,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1229, 200);
+            this.pictureBox1.Size = new System.Drawing.Size(1324, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -404,7 +403,7 @@
             this.panel_Bottom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Bottom.Location = new System.Drawing.Point(0, 200);
             this.panel_Bottom.Name = "panel_Bottom";
-            this.panel_Bottom.Size = new System.Drawing.Size(1229, 649);
+            this.panel_Bottom.Size = new System.Drawing.Size(1324, 649);
             this.panel_Bottom.TabIndex = 2;
             // 
             // FrmMain_Main
@@ -412,7 +411,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(1229, 849);
+            this.ClientSize = new System.Drawing.Size(1324, 849);
             this.Controls.Add(this.panel_Bottom);
             this.Controls.Add(this.panel_Top);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -450,14 +449,13 @@
         private System.Windows.Forms.ToolStripMenuItem 常見問題ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 預約體驗ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 商城ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 團體課程ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 課程資訊ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 教練ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 修改教練資料ToolStripMenuItem;
         private System.Windows.Forms.Label lbl_Info;
         private System.Windows.Forms.ToolStripMenuItem 修改會員資料ToolStripMenuItem;
         private System.Windows.Forms.Panel panel_Top;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ToolStripMenuItem 訓練課程ToolStripMenuItem;
         internal System.Windows.Forms.Panel panel_Bottom;
         private System.Windows.Forms.ToolStripMenuItem 已預約課程ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 新增課程ToolStripMenuItem;
@@ -472,5 +470,6 @@
         private System.Windows.Forms.ToolStripMenuItem 教練款項ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 我的開課ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 歷史訂單ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 場館資訊ToolStripMenuItem;
     }
 }

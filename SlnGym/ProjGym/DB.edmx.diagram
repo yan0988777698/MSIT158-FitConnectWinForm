@@ -4,8 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="0b11fe2beef84c51b3d991bf7bc54d30" Name="Diagram1">
-        <EntityTypeShape EntityType="gymModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+      <Diagram DiagramId="136acb41334a47068b14689fb221f7b2" Name="Diagram1">
+        <EntityTypeShape EntityType="gymModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tcity" Width="1.5" PointX="1.5" PointY="31.125" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tclass_limit_details" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tclass_reserve" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
@@ -15,9 +15,10 @@
         <EntityTypeShape EntityType="gymModel.tclass_status_detail" Width="1.5" PointX="6" PointY="18.875" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tclasses" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tcoach_expert" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="gymModel.tcoach_info_id" Width="1.5" PointX="5.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gymModel.tcoach_info_id" Width="1.5" PointX="5.25" PointY="22" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tcoach_photo" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tcompany" Width="1.5" PointX="1.5" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gymModel.tcourse_photo" Width="1.5" PointX="10.5" PointY="10.625" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tfield" Width="1.5" PointX="6" PointY="26.25" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tfield_photo" Width="1.5" PointX="8.25" PointY="26.625" IsExpanded="true" />
         <EntityTypeShape EntityType="gymModel.tfield_reserve" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
@@ -41,6 +42,7 @@
         <AssociationConnector Association="gymModel.FK_class_schedule_field" ManuallyRouted="false" />
         <AssociationConnector Association="gymModel.FK_class_schedule_Identity" ManuallyRouted="false" />
         <AssociationConnector Association="gymModel.FK_tclass_schedule_ttimes_detail" ManuallyRouted="false" />
+        <AssociationConnector Association="gymModel.FK_tcourse_photo_tclass_schedule" ManuallyRouted="false" />
         <AssociationConnector Association="gymModel.FK_classes_class_sort_有氧" ManuallyRouted="false" />
         <AssociationConnector Association="gymModel.FK_classes_class_sort_訓練" ManuallyRouted="false" />
         <AssociationConnector Association="gymModel.FK_coach_expert_classes" ManuallyRouted="false" />

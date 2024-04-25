@@ -105,15 +105,6 @@ namespace ProjGym
             showHomePage();
         }
 
-        private void 訓練課程ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            closeCurrentForm();
-            FrmMember_FindClass frmMember_ClassList = new FrmMember_FindClass();
-            frmMember_ClassList.member = this.member;
-            setPage(frmMember_ClassList);
-
-        }
-
         private void 新增課程ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             closeCurrentForm();
@@ -174,7 +165,7 @@ namespace ProjGym
 
         private void 教練款項ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //TODO
         }
 
         private void 修改教練資料ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -215,6 +206,21 @@ namespace ProjGym
             FrmCoach_CheckCourse frmCoach_CheckCourse = new FrmCoach_CheckCourse();
             frmCoach_CheckCourse.member = this.member;
             setPage(frmCoach_CheckCourse);
+        }
+
+        private void 課程資訊ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            closeCurrentForm();
+            FrmMember_FindClass frmMember_ClassList = new FrmMember_FindClass();
+            frmMember_ClassList.member = this.member;
+            setPage(frmMember_ClassList);
+        }
+
+        private void 場館資訊ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            closeCurrentForm();
+            FrmMember_FindGym frmMember_FindGym = new FrmMember_FindGym();
+            setPage(frmMember_FindGym);
         }
     }
 }
