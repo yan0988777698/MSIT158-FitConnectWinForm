@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMember_GymInfo));
             this.pb_Field = new System.Windows.Forms.PictureBox();
             this.lblDescribe = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@
             // 
             // pb_Field
             // 
+            this.pb_Field.BackColor = System.Drawing.Color.Snow;
             this.pb_Field.Location = new System.Drawing.Point(12, 72);
             this.pb_Field.Name = "pb_Field";
             this.pb_Field.Size = new System.Drawing.Size(536, 314);
@@ -52,11 +54,12 @@
             // 
             this.lblDescribe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDescribe.AutoSize = true;
-            this.lblDescribe.Font = new System.Drawing.Font("新細明體", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblDescribe.BackColor = System.Drawing.Color.Transparent;
+            this.lblDescribe.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblDescribe.ForeColor = System.Drawing.Color.Blue;
-            this.lblDescribe.Location = new System.Drawing.Point(610, 136);
+            this.lblDescribe.Location = new System.Drawing.Point(610, 252);
             this.lblDescribe.Name = "lblDescribe";
-            this.lblDescribe.Size = new System.Drawing.Size(22, 14);
+            this.lblDescribe.Size = new System.Drawing.Size(34, 24);
             this.lblDescribe.TabIndex = 10;
             this.lblDescribe.Text = "---";
             // 
@@ -64,11 +67,12 @@
             // 
             this.lblTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("新細明體", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblTime.BackColor = System.Drawing.Color.Transparent;
+            this.lblTime.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblTime.ForeColor = System.Drawing.Color.Blue;
-            this.lblTime.Location = new System.Drawing.Point(610, 104);
+            this.lblTime.Location = new System.Drawing.Point(610, 169);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(22, 14);
+            this.lblTime.Size = new System.Drawing.Size(34, 24);
             this.lblTime.TabIndex = 9;
             this.lblTime.Text = "---";
             // 
@@ -76,22 +80,24 @@
             // 
             this.lblAddress.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Font = new System.Drawing.Font("新細明體", 10.18868F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblAddress.BackColor = System.Drawing.Color.Transparent;
+            this.lblAddress.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblAddress.ForeColor = System.Drawing.Color.Blue;
-            this.lblAddress.Location = new System.Drawing.Point(610, 71);
+            this.lblAddress.Location = new System.Drawing.Point(610, 88);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(22, 14);
+            this.lblAddress.Size = new System.Drawing.Size(34, 24);
             this.lblAddress.TabIndex = 8;
             this.lblAddress.Text = "---";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("新細明體", 14.26415F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblName.BackColor = System.Drawing.Color.Transparent;
+            this.lblName.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblName.ForeColor = System.Drawing.Color.Blue;
             this.lblName.Location = new System.Drawing.Point(12, 26);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(30, 20);
+            this.lblName.Size = new System.Drawing.Size(44, 31);
             this.lblName.TabIndex = 7;
             this.lblName.Text = "---";
             // 
@@ -99,11 +105,12 @@
             // 
             this.flowLayoutPanel_pb_Field.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.flowLayoutPanel_pb_Field.AutoScroll = true;
+            this.flowLayoutPanel_pb_Field.BackColor = System.Drawing.Color.Snow;
             this.flowLayoutPanel_pb_Field.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel_pb_Field.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.flowLayoutPanel_pb_Field.Location = new System.Drawing.Point(12, 392);
+            this.flowLayoutPanel_pb_Field.Location = new System.Drawing.Point(12, 426);
             this.flowLayoutPanel_pb_Field.Name = "flowLayoutPanel_pb_Field";
-            this.flowLayoutPanel_pb_Field.Size = new System.Drawing.Size(536, 145);
+            this.flowLayoutPanel_pb_Field.Size = new System.Drawing.Size(536, 111);
             this.flowLayoutPanel_pb_Field.TabIndex = 6;
             // 
             // timer1
@@ -114,6 +121,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(949, 549);
             this.Controls.Add(this.pb_Field);
             this.Controls.Add(this.lblDescribe);
@@ -121,10 +130,11 @@
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.flowLayoutPanel_pb_Field);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmMember_GymInfo";
-            this.Text = "FrmMember_GymInfo";
+            this.Text = "Member | 查看場館";
             this.Load += new System.EventHandler(this.FrmMember_GymInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_Field)).EndInit();
             this.ResumeLayout(false);

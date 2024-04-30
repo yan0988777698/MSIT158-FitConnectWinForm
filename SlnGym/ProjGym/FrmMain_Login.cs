@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjGym.FrmMember;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace ProjGym
     public delegate void Dlogin(tIdentity m);
     public partial class FrmMain_Login : Form
     {
+        gymEntities _gymEntities = new gymEntities();
         //紀錄是否能關閉[登入頁面]
         bool _isClosed = true;
         //紀錄登入次數
@@ -35,9 +37,9 @@ namespace ProjGym
             string username = this.tb_UserName.Text;
             string password = this.tb_Password.Text;
             //產生[gym資料庫實體]
-            gymEntities gymEntities = new gymEntities();
+
             //依照[使用者]所輸入的帳號與密碼，在[gym資料庫實體]中的[Identity]資料表內進行查詢
-            tIdentity m = gymEntities.tIdentity.FirstOrDefault(x => (x.e_mail == username || x.phone == username) && x.password == password);
+            tIdentity m = _gymEntities.tIdentity.FirstOrDefault(x => (x.e_mail == username || x.phone == username) && x.password == password);
             //如果成功在[gym資料庫實體]內的[Identity]資料表中找到符合帳號密碼的會員，就執行以下程式碼
             //------------------------------------------------------------------------------↓
             if (m != null)
@@ -55,6 +57,19 @@ namespace ProjGym
             //------------------------------------------------------------------------------↑
             //否則執行以下程式碼
             //------------------------------------------------------------------------------↓
+            bool isRegistered = _gymEntities.tIdentity.Any(x => x.e_mail == username || x.phone == username);
+            if (!isRegistered)
+            {
+                //彈出MessageBox詢問使用者是否進入註冊畫面
+                DialogResult result = MessageBox.Show("此帳號尚未註冊，是否進入註冊畫面?", "未註冊帳號", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    //跳轉至註冊表單
+                    btn_MemberRegister_Click(sender, e);
+                }
+                return;
+            }
             //[嘗試登入次數]+1
             loginTimes++;
             //在[登入失敗提示]上顯示[目前錯誤次數]及[剩餘可嘗試次數]
@@ -134,6 +149,13 @@ namespace ProjGym
             FrmCoach_NewRegister frmCoach_NewRegister = new FrmCoach_NewRegister();
             frmCoach_NewRegister.StartPosition = FormStartPosition.CenterScreen;
             frmCoach_NewRegister.ShowDialog();
+        }
+        //TODO:忘記密碼
+
+        private void lbl_ForgetPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmMember_ForgotPassword frmForgotPassword = new FrmMember_ForgotPassword();
+            frmForgotPassword.ShowDialog();
         }
     }
 }

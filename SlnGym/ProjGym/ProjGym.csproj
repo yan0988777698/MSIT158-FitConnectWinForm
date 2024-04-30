@@ -107,6 +107,12 @@
     <Compile Include="FrmMember\FrmMember_FindGym.Designer.cs">
       <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMember\FrmMember_ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember\FrmMember_ForgotPassword.Designer.cs">
+      <DependentUpon>FrmMember_ForgotPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMember\FrmMember_GoPay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,11 +206,11 @@
     <Compile Include="ttimes_detail.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
-    <Compile Include="使用者控制項\UCAdmin_Gym.cs">
+    <Compile Include="使用者控制項\UCMember_Gym.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="使用者控制項\UCAdmin_Gym.Designer.cs">
-      <DependentUpon>UCAdmin_Gym.cs</DependentUpon>
+    <Compile Include="使用者控制項\UCMember_Gym.Designer.cs">
+      <DependentUpon>UCMember_Gym.cs</DependentUpon>
     </Compile>
     <Compile Include="使用者控制項\UCCoach_OpenedCourse.cs">
       <SubType>UserControl</SubType>
@@ -358,14 +364,17 @@
     <EmbeddedResource Include="FrmMember\FrmMember_FindGym.resx">
       <DependentUpon>FrmMember_FindGym.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember\FrmMember_ForgotPassword.resx">
+      <DependentUpon>FrmMember_ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMember\FrmMember_GoPay.resx">
       <DependentUpon>FrmMember_GoPay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMember\FrmMember_GymInfo.resx">
       <DependentUpon>FrmMember_GymInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="使用者控制項\UCAdmin_Gym.resx">
-      <DependentUpon>UCAdmin_Gym.cs</DependentUpon>
+    <EmbeddedResource Include="使用者控制項\UCMember_Gym.resx">
+      <DependentUpon>UCMember_Gym.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="使用者控制項\UCCoach_OpenedCourse.resx">
       <DependentUpon>UCCoach_OpenedCourse.cs</DependentUpon>

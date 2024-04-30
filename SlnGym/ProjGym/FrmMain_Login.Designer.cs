@@ -39,6 +39,7 @@
             this.lbl_ErrorLogin = new System.Windows.Forms.Label();
             this.btn_MemberRegister = new System.Windows.Forms.Button();
             this.btn_CoachRegister = new System.Windows.Forms.Button();
+            this.lbl_ForgetPassword = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -183,12 +184,27 @@
             this.btn_CoachRegister.UseVisualStyleBackColor = false;
             this.btn_CoachRegister.Click += new System.EventHandler(this.btn_CoachRegister_Click);
             // 
+            // lbl_ForgetPassword
+            // 
+            this.lbl_ForgetPassword.ActiveLinkColor = System.Drawing.Color.Red;
+            this.lbl_ForgetPassword.AutoSize = true;
+            this.lbl_ForgetPassword.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ForgetPassword.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbl_ForgetPassword.Location = new System.Drawing.Point(603, 329);
+            this.lbl_ForgetPassword.Name = "lbl_ForgetPassword";
+            this.lbl_ForgetPassword.Size = new System.Drawing.Size(167, 25);
+            this.lbl_ForgetPassword.TabIndex = 8;
+            this.lbl_ForgetPassword.TabStop = true;
+            this.lbl_ForgetPassword.Text = "忘記密碼? 請點此";
+            this.lbl_ForgetPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_ForgetPassword_LinkClicked);
+            // 
             // FrmMain_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1028, 572);
+            this.Controls.Add(this.lbl_ForgetPassword);
             this.Controls.Add(this.lbl_ErrorLogin);
             this.Controls.Add(this.btn_Cancel);
             this.Controls.Add(this.btn_CoachRegister);
@@ -222,5 +238,6 @@
         private System.Windows.Forms.Label lbl_ErrorLogin;
         private System.Windows.Forms.Button btn_MemberRegister;
         private System.Windows.Forms.Button btn_CoachRegister;
+        private System.Windows.Forms.LinkLabel lbl_ForgetPassword;
     }
 }

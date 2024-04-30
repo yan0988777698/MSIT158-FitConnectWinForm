@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjGym.使用者控制項
 {
-    public partial class UCAdmin_Gym : UserControl
+    public partial class UCMember_Gym : UserControl
     {
-        public UCAdmin_Gym()
+        public UCMember_Gym()
         {
             InitializeComponent();
         }
@@ -33,7 +33,6 @@ namespace ProjGym.使用者控制項
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
-            //TODO:
             FrmMember_GymInfo frmMember_GymInfo = new FrmMember_GymInfo();
             frmMember_GymInfo.gymname = this.gymname;
             frmMember_GymInfo.gymtime = this.gymtime;

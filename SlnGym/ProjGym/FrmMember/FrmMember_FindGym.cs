@@ -29,7 +29,7 @@ namespace ProjGym
                        select gym;
             foreach (var gym in gyms)
             {
-                UCAdmin_Gym uCAdmin_Gym = new UCAdmin_Gym()
+                UCMember_Gym uCAdmin_Gym = new UCMember_Gym()
                 {
                     gymid = gym.Gym_id,
                     gymname = gym.name,
@@ -75,7 +75,7 @@ namespace ProjGym
 
             gyms.ToList().ForEach(gym =>
             {
-                UCAdmin_Gym uCAdmin_Gym = new UCAdmin_Gym
+                UCMember_Gym uCAdmin_Gym = new UCMember_Gym
                 {
                     gymid = gym.Gym_id,
                     gymname = gym.name,
@@ -98,7 +98,7 @@ namespace ProjGym
             flowLayoutPanel_Gym.Controls.Clear();
             foreach (var gym in gyms)
             {
-                UCAdmin_Gym uCAdmin_Gym = new UCAdmin_Gym
+                UCMember_Gym uCAdmin_Gym = new UCMember_Gym
                 {
                     gymid = gym.Gym_id,
                     gymname = gym.name,

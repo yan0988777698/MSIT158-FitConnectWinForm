@@ -1,6 +1,6 @@
 ﻿namespace ProjGym.使用者控制項
 {
-    partial class UCAdmin_Gym
+    partial class UCMember_Gym
     {
         /// <summary> 
         /// 設計工具所需的變數。
@@ -40,7 +40,7 @@
             // 
             this.btn_Info.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_Info.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Info.ForeColor = System.Drawing.Color.Blue;
+            this.btn_Info.ForeColor = System.Drawing.Color.Black;
             this.btn_Info.Location = new System.Drawing.Point(392, 120);
             this.btn_Info.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Info.Name = "btn_Info";
@@ -97,7 +97,7 @@
             this.pb_GymPhoto.TabIndex = 5;
             this.pb_GymPhoto.TabStop = false;
             // 
-            // UCAdmin_Gym
+            // UCMember_Gym
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.pb_GymPhoto);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "UCAdmin_Gym";
+            this.Name = "UCMember_Gym";
             this.Size = new System.Drawing.Size(482, 154);
             ((System.ComponentModel.ISupportInitialize)(this.pb_GymPhoto)).EndInit();
             this.ResumeLayout(false);
